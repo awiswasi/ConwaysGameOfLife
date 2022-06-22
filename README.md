@@ -7,4 +7,5 @@ My implementation of Conway's Game of Life in C#.
 * Any live cell with two or three live neighbours lives, unchanged, to the next generation.
 * Any dead cell with exactly three live neighbours will come to life.
 
-[ConwaysGameOfLife]!(https://github.com/awiswasi/test-driven-life/raw/master/docs/assets/GameOfLifeTest.gif)
+[ConwaysGameOfLife]!(https://github.com/awiswasi/ConwaysGameOfLife/blob/master/docs/assets/GameOfLife.gif)
+

@@ -1,0 +1,28 @@
+﻿<Window x:Class="ConwaysGameOfLife.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Conway's Game of Life" Height="700" Width="650" Background="Beige" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <Canvas Grid.Row="0" Name="PlayingField" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00000000" />
+        <Canvas Grid.Row="0" Name="UserInputLayer" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MouseDown="UserClick" Background="#11000000" />
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Tick" Click="TickClick" Name="Tick" Background="Beige" Foreground="#FF0A0056" BorderBrush="IndianRed" FontWeight="Bold" FontSize="14" />
+            <Button Grid.Column="1" Content="Start" Click="StartClick" Name="Start" Foreground="#FF0A0056" Background="Beige" BorderBrush="IndianRed" FontWeight="Bold" FontSize="14" />
+            <Button Grid.Column="2" Content="Stop" Click="StopClick" Name="Stop" Background="Beige" Foreground="#FF0A0056" BorderBrush="IndianRed" IsEnabled="False" FontWeight="Bold" FontSize="14" />
+            <Button Grid.Column="3" Content="Clear" Click="ClearClick" Background="Beige" Foreground="#FF0A0056" BorderBrush="IndianRed" FontWeight="Bold" FontSize="14" />
+        </Grid>
+    </Grid>
+</Window>

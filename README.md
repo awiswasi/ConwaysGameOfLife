@@ -11,4 +11,4 @@ My implementation of Conway's Game of Life in C# using test-driven development.
 ![ConwaysGameOfLife](https://github.com/awiswasi/ConwaysGameOfLife/blob/master/docs/assets/GameOfLife.gif)
 
 ## Tests
-![PassedTests](https://github.com/awiswasi/ConwaysGameOfLife/blob/master/docs/assets/PassedTests.gif)
+![PassedTests](https://github.com/awiswasi/ConwaysGameOfLife/blob/master/docs/assets/PassedTests.PNG)
